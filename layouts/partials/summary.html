@@ -1,0 +1,7 @@
+{{ if eq .Type "notes" }}
+{{ partial "note" . }}
+{{ else }}
+<p class="h-entry">
+    <a class="p-name u-url" href="{{ .RelPermalink }}">{{ .Title }}</a>
+</p>
+{{ end }}

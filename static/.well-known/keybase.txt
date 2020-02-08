@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/deltawhy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://deltawhy.me
+  * I am deltawhy (https://keybase.io/deltawhy) on keybase.
+  * I have a public key ASCs-JnuTBVcsMSkptdzRl_cVn9XJ_V6k_lCQCHj7ukGawo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120acf899ee4c155cb0c4a4a6d773465fdc567f5727f57a93f9424021e3eee9066b0a",
+      "host": "keybase.io",
+      "kid": "0120acf899ee4c155cb0c4a4a6d773465fdc567f5727f57a93f9424021e3eee9066b0a",
+      "uid": "cf66d9f4a611678b3049575da78da119",
+      "username": "deltawhy"
+    },
+    "merkle_root": {
+      "ctime": 1581179393,
+      "hash": "7976f8e6bd064537b5819d3d5580a3eeb0712cddcf6d5a692c306495f341d00c14ea1ef875bfd6712afda7397c6e9656d7e60ff19be7ecc716c3c327b000fdf5",
+      "hash_meta": "3c803129bfc6c2868ad58befa3f5123ca81f7ccaf13d3a61fc0855d708ad1fab",
+      "seqno": 14535535
+    },
+    "service": {
+      "entropy": "T/Kq7TJJnVgy52S3i6lQur5l",
+      "hostname": "deltawhy.me",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.2.0"
+  },
+  "ctime": 1581179404,
+  "expire_in": 504576000,
+  "prev": "f3fde506b681409e08ea90d0b058ccb4bf73140bd4eae61e8e1bc16cfed60c87",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgrPiZ7kwVXLDEpKbXc0Zf3FZ/Vyf1epP5QkAh4+7pBmsKp3BheWxvYWTESpcCB8Qg8/3lBraBQJ4I6pDQsFjMtL9zFAvU6uYejhvBbP7WDIfEII/diA1adxEPmWQpBUHeHC1Rw7orCGyZf/53Oi/1VIYRAgHCo3NpZ8RA38phRBSxQgp0o6FP/Z4LLKUukxyadXmJUdf0QVD/ZdvZhD6tKyTzdQk+lypIopEF44Ph5hEG4Y9sFdfhF/JTC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINVI0twcq0kLHBGh5f0D43QwqdOVLS+5HkE7+XvYH+W6o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/deltawhy
+
+==================================================================

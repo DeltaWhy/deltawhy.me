@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<div class="h-card" rel="me">
+    <h1 class="p-nickname">{{ .Title }}</h1>
+    <img class="u-photo" src="/images/logo.png">
+    <a class="u-url u-uid" href="https://deltawhy.me" rel="me"></a>
+    <!--<a class="u-url" href="https://michael.limiero.com" rel="me"></a>-->
+    <p class="p-name">Michael Limiero
+    <p class="p-note">{{ .Site.Params.homeText | markdownify }}
+</div>
+
+<ul class="h-feed">
+    <a class="p-author h-card" rel="author" href="/"></a>
+    {{ range .Site.RegularPages }}
+    <li>{{ partial "summary" . }}</li>
+    {{ end }}
+</ul>
+{{ end }}

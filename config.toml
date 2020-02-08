@@ -1,0 +1,22 @@
+baseURL = "https://deltawhy.me/"
+languageCode = "en-us"
+title = "deltawhy.me"
+
+[params]
+homeText = "I do computer stuff. Sometimes other stuff too."
+
+[permalinks]
+blog = "/:filename/"
+pages = "/:filename/"
+
+[menu]
+    [[menu.main]]
+        name = "Home"
+        pre = "home"
+        url = "/"
+        weight = 1
+    [[menu.main]]
+        name = "Tags"
+        pre = "tag"
+        url = "/tags/"
+        weight = 2

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        {{ $css := "css/normalize.css" | absURL }}
+        <link rel="stylesheet" href="{{ $css }}">
+		<link rel="webmention" href="https://webmention.io/deltawhy.me/webmention">
+		<link rel="pingback" href="https://webmention.io/deltawhy.me/xmlrpc">
+        <title>{{ .Title }}</title>
+    </head>
+    <body>
+        {{ partial "nav.html" . }}
+        <section id="social">
+            <a href="https://twitter.com/michaellimiero" rel="me">Twitter</a>
+            <a href="https://github.com/DeltaWhy" rel="me">GitHub</a>
+            <a href="https://gitlab.com/DeltaWhy" rel="me">GitLab</a>
+            <a href="https://keybase.io/deltawhy" rel="me">Keybase</a>
+        </section>
+        <main id="main">
+            {{ block "main" . }}{{ end }}
+        </main>
+    </body>
+</html>
