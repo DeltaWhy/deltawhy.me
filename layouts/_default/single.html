@@ -3,4 +3,11 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 
+<aside>
+    <ul class="tags">
+        {{ range .Params.tags }}
+        <li><a href="/tags/{{ . }}">{{ . }}</a></li>
+        {{ end }}
+    </ul>
+</aside>
 {{ end }}

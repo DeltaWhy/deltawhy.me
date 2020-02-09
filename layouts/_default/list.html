@@ -3,7 +3,11 @@
 <h1>{{ .Title }}</h1>
 {{ range .Pages.ByPublishDate.Reverse }}
 <p>
+    {{ if .Title }}
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ else }}
+    <a href="{{ .RelPermalink }}">{{ .Summary }}</a>
+    {{ end }}
 </p>
 {{ end }}
 

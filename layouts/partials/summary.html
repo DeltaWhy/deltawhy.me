@@ -2,6 +2,10 @@
 {{ partial "note" . }}
 {{ else }}
 <p class="h-entry">
+    {{ if .Title }}
     <a class="p-name u-url" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ else }}
+    <a class="u-url" href="{{ .RelPermalink }}">{{ .Summary }}</a>
+    {{ end }}
 </p>
 {{ end }}
