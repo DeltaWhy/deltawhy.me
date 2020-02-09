@@ -5,3 +5,4 @@ tags: []
 draft: false
 ---
 This is a test post.
+And I'm editing it using GitHub.
